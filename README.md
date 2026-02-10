@@ -2,6 +2,7 @@
 Budget AppA Python-based personal finance tracker that manages multiple budget categories. It tracks deposits, withdrawals, and transfers while providing a visual bar chart of spending distributions.
 
 #Key FeaturesCategory Management: Create specific categories like "Food," "Entertainment," or "Business."Ledger Tracking: Every transaction is stored with an amount and a description.Balance Validation: The check_funds helper ensures you never withdraw more than you have available.Inter-Category Transfers: Easily move money between categories (e.g., moving $50 from "Business" to "Food").Formatted Output: A custom __str__ method prints a clean, aligned receipt for each category.Spending Visualization: Generate an ASCII bar chart showing the percentage of total spending per category.
+
 #Class Methods: CategoryMethodDescriptiondeposit(amount, desc)
 Adds a positive amount to the ledger.withdraw(amount, desc)Adds a negative amount if funds are available. Returns True if successful.get_balance()Returns the current total remaining in the category.transfer(amount, cat)Withdraws from the current category and deposits into another.check_funds(amount)Returns True if the balance is greater than or equal to the amount.
 ## Spending Chart LogicThe create_apend_chart function provides a bird's-eye view of your expenses:
