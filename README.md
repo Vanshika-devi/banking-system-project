@@ -28,4 +28,4 @@ groceries              -10.15
 restaurant             -15.89
 Transfer to Clothing   -50.00
 Total: 923.96
-## Future EnhancementsData Persistence: Save ledgers to a .json or .csv file so data isn't lost when the script closes.Monthly Reset: Add functionality to clear ledgers at the start of a new month.Input Validation: Ensure amount is always a positive number.
+## Future EnhancementsData Persistence: Save ledgers to a .json or .csv file so data isn't lost when the script closes.Monthly Reset: Add functionality to clear ledgers at the start of a new month.Input Validation: Ensure amount is always a positive number.and provide more visual support to it. And make it more interactive. 
